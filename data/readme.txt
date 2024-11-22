@@ -1,0 +1,1 @@
+should contain a collection of .rda files, each of which contains exactly one R data frame (ie they should *not* be the results of save.image()).  They should be fully concorded, merged, reduced to the variables needed, and in Tidy format as per Hadley Wickham's definition.

@@ -1,0 +1,90 @@
+# History files
+.Rhistory
+.Rapp.history
+
+# Temporary files
+~*
+*~
+
+# Session Data files
+.RData
+
+# Example code in package build process
+*-Ex.R
+
+# Output files from R CMD build
+/*.tar.gz
+
+# Output files from R CMD check
+/*.Rcheck/
+
+# RStudio files
+.Rproj.user/
+*.Rproj
+
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+
+# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+.httr-oauth
+
+# knitr and R markdown default cache directories
+/*_cache/
+/cache/
+
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
+
+## pesky macintosh files
+*.DS_Store
+*/.DS_Store
+**/.DS_Store
+***/.DS_Store
+.Rproj.user
+
+# Input files from biooracle
+*.asc
+*.aux.xml
+*.qgs
+*.qgs~
+*.qgd
+
+# binary outputs
+*.pdf
+*.png
+*.jpg
+
+# presentations
+*.html
+*.ppt
+*.pptx
+
+# reference files
+*.doc
+*.docx
+
+# raw files from modis & conversions
+*.nc
+*.grd
+*.gri
+
+# generated data objects
+*.rda
+*.rds
+
+# raster files
+*.tif
+*.xyz
+
+# temporary files from *.kmz extracts
+*.zip
+*.kml
+
+# fisheries stock assessment files
+*.sso
+*.cor
+*.par
+*.std
+

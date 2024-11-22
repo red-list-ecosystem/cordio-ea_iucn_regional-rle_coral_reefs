@@ -1,0 +1,1 @@
+should contain, in neat sub-folders, data that has been untouched by human hands and that has to be downloaded eg as a csv.  Data that is available via a database, or the {census2013} R package, should *not* be saved here but in the grooming code it should be created from scratch.

@@ -1,0 +1,1 @@
+should contain short modular scripts that take data that has been loaded from the data folder by integrate.R and turns it into outputs.  All extraneous material (eg calls to head(), str(), summary() etc) should be removed and the script pared to the bone so it is easy for others to follow what is happening.

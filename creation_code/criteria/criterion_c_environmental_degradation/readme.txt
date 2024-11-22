@@ -1,0 +1,1 @@
+should contain scripts that take data from data_raw (and possibly from data_intermediate) and turn it into fully groomed, concorded, Tidy datasets in data. Only data that is needed should be saved in data.
