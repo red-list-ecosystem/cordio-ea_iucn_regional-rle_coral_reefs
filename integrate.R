@@ -74,7 +74,7 @@
 
   # point to working directory        ## -- need to adjust for local copy -- ##
     # setwd(paste0("/Users/franzinho/Desktop/research/",
-    #              "cordio-ea_iucn_red-list-ecosystems_public"))
+                 # "cordio-ea_iucn_regional-rle_coral_reefs"))
 
 
 ##
