@@ -135,7 +135,7 @@
  ##      be analysed independently.                  -- ##
 
   # create empty object to hold results
-    create_criterion_d_biotic_disruption_key_fish_consumers <- tibble()
+    criterion_d_biotic_disruption_key_fish_consumers <- tibble()
 
   # set seed for reproducibility
     set.seed(66)
@@ -249,7 +249,7 @@
 
      ## -- harvest results -- ##
       # combine
-        create_criterion_d_biotic_disruption_key_fish_consumers %<>%
+        criterion_d_biotic_disruption_key_fish_consumers %<>%
           bind_rows(baseline_bio)
 
 
@@ -260,7 +260,7 @@
 ## 4. Review results
 ##
   # summarise
-    create_criterion_d_biotic_disruption_key_fish_consumers %>%
+    criterion_d_biotic_disruption_key_fish_consumers %>%
       group_by(Ecoregion,
                fish,
                Method,
@@ -294,8 +294,8 @@
     save_locale <- "data_intermediate/criteria/"
 
   # save to file
-    save(create_criterion_d_biotic_disruption_key_fish_consumers,
-      file = paste0(save_locale, "create_criterion_d_biotic_disruption_key_fish_consumers.rda"))
+    save(criterion_d_biotic_disruption_key_fish_consumers,
+      file = paste0(save_locale, "criterion_d_biotic_disruption_key_fish_consumers.rda"))
 
 
 ##
@@ -313,5 +313,5 @@
        threat_conversions)
 
   # remove core objects
-    rm(create_criterion_d_biotic_disruption_key_fish_consumers)
+    rm(criterion_d_biotic_disruption_key_fish_consumers)
 
